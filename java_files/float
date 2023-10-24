@@ -1,0 +1,12 @@
+class FloatDatatype
+{
+    public static void main (String[] args)
+    {
+        float a = 22.8f ;
+        float b = 100.25f ;
+        System.out.println (" " +a);
+        System.out.println (" " +b);
+    }
+}
+        
+     

@@ -1,0 +1,9 @@
+class BooleanDatatype
+{
+    public static void main(String [] args)
+    {
+             boolean b=(10>9)?true: false;
+             System.out.println ("10>9 is " +b);
+    }
+}
+                          

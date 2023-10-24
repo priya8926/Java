@@ -1,0 +1,9 @@
+package com.company ;
+public class String_method 
+{
+    public static void main (String[] args)
+    {
+        String name ="Harry";      
+        System.out.println (name.substring(2));
+    }
+}

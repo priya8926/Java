@@ -1,0 +1,19 @@
+import java.util.Scanner ;
+public class condition_if 
+{
+    public static void main (String[] args)
+    {
+        int pwd;
+        System.out.print ("Enter password :");
+        Scanner obj = new Scanner ( System. in);
+        pwd = obj.nextInt ();
+        if (pwd ==2002)
+        { 
+        System.out.println ("My name = Priya");
+        System.out.println ("My age = 21");
+        System.out.println ("My contact= 9427840566");
+        }
+    }
+}
+
+       

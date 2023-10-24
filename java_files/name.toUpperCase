@@ -1,0 +1,10 @@
+package com.company ;
+public class String_method 
+{
+		public static void main  (String[] args)
+		{
+		    String name  = "Priya";
+		     String Ustring = name.toUpperCase ();
+		     System.out.println (Ustring);
+		}
+}

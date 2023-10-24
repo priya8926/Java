@@ -1,0 +1,27 @@
+import java.util.Scanner ;
+public class elseif_condition 
+{
+    public static void main  (String[] args)
+    {
+        int marks;
+        System.out.println ("Enter marks=");
+        Scanner sc= new Scanner (System.in);
+        marks = sc.nextInt ();
+        if (marks>=70  &&  marks <=100)
+        {
+            System.out.println ("First division");
+        }
+        else if (marks>=55  &&   marks <70)
+        { 
+        System.out.println ("Second division");
+        }
+        else if (marks >=33   &&   marks < 55)
+        {
+            System.out.println ("Third division");
+        }
+        else 
+        {
+            System.out.println ("Failed...");
+        }
+    }
+}

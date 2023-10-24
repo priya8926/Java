@@ -1,0 +1,8 @@
+}class CharacterDatatype
+{
+    public static void main (String[] args)
+    {
+         char c = 'p';
+         System.out.println ("The character is :" +c);
+    }
+}

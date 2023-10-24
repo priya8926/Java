@@ -1,0 +1,47 @@
+
+import java.util.ArrayList;
+public class Main
+ {
+	public static void main(String[] args) 
+	{
+		int[] a  = { 2,5,6,3,1,6,7,8,9,11,32,14,15,17};
+		 ArrayList <Integer >al1= new ArrayList<>();
+		 ArrayList <Integer > al2 = new ArrayList <>();
+		 
+		 for (int i=0; i<a.length;i++)
+		 {
+		     if (a[i]%2==0)
+		     {
+		         al1.add(a[i]);
+		     }
+		     else
+		     {
+		         al2.add(a[i]);
+		     }
+		 }
+		 int total1=0;
+		 System.out.println ("Even  number  are:");
+		 for (int no:al1)
+		 {
+		     total1= total1+no;
+		     System.out.print (no+" ");
+		 }
+		 System.out.println ("\n");
+		 
+		 System.out.println ("total no of even numbers are: " +al1.size());
+		 System.out.println ("sum of all even numbers  are:" +total1);
+		 System.out.println ("__________________________________");
+		 
+		 System.out.println("odd numbers are :");
+		 int total2=0;
+		 for(int no:al2)
+		 {
+		     total2=total2+no;
+		     System.out.print(no+" ");
+		     
+		 }
+		 System.out.println ("\n total no of odd numbers  are: " +al2.size());
+		 
+		 System.out.println ("sum of all odd numbers are:" +total2);
+	}
+}
